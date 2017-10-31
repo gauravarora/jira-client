@@ -5,7 +5,11 @@
   <artifactId>jira-client</artifactId>
   <version>0.6-SNAPSHOT</version>
   <packaging>jar</packaging>
-
+  <parent>
+		<groupId>zoto</groupId>
+		<artifactId>zoto-parent</artifactId>
+		<version>11</version>
+	</parent>
   <name>jira-client</name>
   <description>A simple JIRA REST client</description>
   <url>https://github.com/rcarz/jira-client</url>
